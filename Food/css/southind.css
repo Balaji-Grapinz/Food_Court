@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar-brand a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 30px;
+    padding: 10px;
+}
+
+.outbox {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width:75%;
+    margin:auto;
+    
+}
+
+.outbox img {
+    width: 100%;
+    height: auto;
+}
+
+.inner {
+    padding: 40px;
+}
+
+.inner h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.inner p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.opens {
+    color: red;
+}
+button{
+    margin-top:10px;
+    margin-bottom:10px;
+    width:150px;
+    height:40px;
+    border-radius:10%;
+    background-color: rgb(196, 30, 58);
+    color:white;
+    margin-left:10px;
+    }
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.bottom {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.bottom h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.bottom ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bottom ul li {
+    margin-bottom: 8px;
+}
+
+.bottom ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.bottom ul li a:hover {
+    text-decoration: underline;
+}
+
+.copy {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #777;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.copy a {
+    color: #333;
+    text-decoration: none;
+}
+
+.copy a:hover {
+    text-decoration: underline;
+}
